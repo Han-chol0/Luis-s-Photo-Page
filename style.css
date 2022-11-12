@@ -1,0 +1,105 @@
+h1{
+color:pink;
+font-family:Billyohio;
+font-size: 80px;
+line-height:0;
+/*los margenes los usamos cuando
+queremso crear espacion entre elementos*/
+margin-bottom: 5px;
+}
+
+p{
+  color: #b86C1D4;
+  margin-top: 50px;
+}
+
+body{
+font-family:Grotesk;
+font-size:16px;
+line-height:1.5;
+background-color: #004d96;
+color:#5A92AF;
+}
+
+a{color: #9CD9DE;
+  /*  Esto quita el subrayado de los links que viene por default*/
+text-decoration:none
+}
+
+
+section{
+  /*100 vh
+  el Vh significa viewport height
+  lo que significa que es relativa al height ( altura) del browser window  */
+height: 100vh;
+background-image: url(luis_1.jpg);
+/* Backgroung image cubre toda el height y width
+al hacerlo cover se adapta al tamaño*/
+background-size: cover;
+
+/*Esto va a hacer que se quede fixed la imagen de
+ background al viewport del browser
+en lugar de a la seccion, creando un efecto de reveal mientras
+scrolleamos.
+
+ */
+background-attachment: fixed;
+
+}
+
+header{
+  /*usar Fixed position  nos permite fijar
+   un elemento en un lugar preciso del browser
+  */
+position:fixed;
+top: 20px;
+left:20px;
+}
+
+footer{
+position:fixed;
+bottom:20px;
+left:20px;
+}
+
+footer a {
+  /* aqui seleccionamos las a ( anchors)
+  dentro de los footers
+lo podrias ocupar para cualquiera
+es seleccionar un elemento que esta dentro de otro
+  */
+  margin-right: 5px;
+}
+
+a:hover{
+
+  /*le podemo dar estilo a diferentes elementos asi.
+  se llama pseudo selector
+  aqui le estamos dando el efecto de hover a los anchors
+  (a tags) */
+color: magenta;
+}
+/*esto va a darle estilos en html a la clase
+que este especificada
+siempre lleva un punto enfrente y luego el nombre de la clase */
+.imagen_2{
+  background-image: url(luis_2.jpg);
+}
+.imagen_3{
+  background-image: url(luis_3.jpg);
+}
+.imagen_4{
+  background-image: url(luis_4.jpg);
+}
+.imagen_5{
+  background-image: url(luis_5.jpg);
+}
+.imagen_6{
+  background-image: url(luis_6.jpg);
+}
+.imagen_7{
+  background-image: url(luis_7.jpg);
+}
+.imagen_8{
+  background-image: url(luis_8.jpg);
+}
